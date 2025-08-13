@@ -23,16 +23,46 @@ npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
 pnpm-debug.log*
+logs
+*.log
+*.log.*
 
 # OS files
 .DS_Store
 Thumbs.db
+ehthumbs.db
+Icon?
+Desktop.ini
 
 # IDE/editor files
 .vscode/
 .idea/
 *.sublime-workspace
+*.code-workspace
+
+# TypeScript
+*.tsbuildinfo
+
+# npm
+package-lock.json
+yarn.lock
+.pnpm-debug.log*
+
+# Docker
+docker-compose.override.yml
+Dockerfile.dev
+.dockerignore
+
+# Next.js specific caches
+.next/cache
+.vercel
+
+# Testing
+/coverage
+/jest.config.ts
 
 # Misc
-*.tsbuildinfo
-.next/cache
+*.swp
+*.swo
+*.bak
+*.tmp
