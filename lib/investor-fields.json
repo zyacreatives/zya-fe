@@ -1,0 +1,104 @@
+{
+  "investment_areas": [
+    {
+      "slug": "digital_content_platforms",
+      "name": "Digital Content Platforms",
+      "description": "Platforms for creating, distributing, and monetizing digital media art, AR/VR experiences, creative coding, and interactive installations. Includes software, marketplaces, and studios."
+    },
+    {
+      "slug": "film_video_production",
+      "name": "Film & Video Production",
+      "description": "Supporting the entire pipeline from scriptwriting and pre-production (storyboarding, concept art) through production (cinematography, sound design) to post-production (editing, color grading, VFX). Includes studios, equipment providers, and post-production houses."
+    },
+    {
+      "slug": "animation_motion_graphics",
+      "name": "Animation & Motion Graphics Studios",
+      "description": "Companies specializing in 2D, 3D, stop-motion, and motion graphics for film, advertising, gaming, and educational content."
+    },
+    {
+      "slug": "podcast_audio_content",
+      "name": "Podcast & Audio Content Creation",
+      "description": "Podcast networks, hosting platforms, audio editing software, and companies focused on immersive audio experiences and sound design."
+    },
+    {
+      "slug": "gaming_interactive_entertainment",
+      "name": "Gaming & Interactive Entertainment",
+      "description": "Game development studios, game engines, VR/AR gaming platforms, and companies creating interactive narrative experiences."
+    },
+    {
+      "slug": "immersive_experiences",
+      "name": "Immersive Experiences",
+      "description": "Companies specializing in exhibition design, installation art, AR/VR experiences, and themed environment creation for retail, entertainment, and educational purposes."
+    },
+    {
+      "slug": "fashion_sustainable_textiles",
+      "name": "Fashion & Sustainable Textiles",
+      "description": "Innovative fashion design, sustainable textile production, and the integration of technology in apparel creation and distribution."
+    },
+    {
+      "slug": "smart_living_interior_design",
+      "name": "Smart Living & Interior Design",
+      "description": "Innovative interior design firms, furniture design studios focusing on sustainability and modularity, and companies developing smart home solutions."
+    },
+    {
+      "slug": "product_industrial_design",
+      "name": "Product & Industrial Design",
+      "description": "Companies excelling in user-centered product design, sustainable industrial practices, and the development of innovative physical goods across various sectors."
+    },
+    {
+      "slug": "architecture_urban_innovation",
+      "name": "Architecture & Urban Innovation",
+      "description": "Architectural firms focused on sustainable design, smart cities, modular construction, and innovative public space design."
+    },
+    {
+      "slug": "creative_agencies",
+      "name": "Creative Agencies",
+      "description": "Agencies excelling in advertising, art direction, copywriting, content strategy, and graphic design, with a focus on digital-first and integrated campaigns."
+    },
+    {
+      "slug": "digital_marketing_social_media",
+      "name": "Digital Marketing & Social Media",
+      "description": "Companies leveraging creative content for social media marketing, influencer collaborations, and advanced content strategy implementation across platforms."
+    },
+    {
+      "slug": "copywriting_content_tools",
+      "name": "Copywriting & Content Tools",
+      "description": "AI-powered writing assistants, content management systems, and analytics tools that enhance copywriting and content strategy execution."
+    },
+    {
+      "slug": "ecommerce_dtc_creative",
+      "name": "E-commerce & Direct-to-Consumer (DTC) Creative",
+      "description": "Businesses leveraging compelling product design, branding, and creative content for successful e-commerce and DTC models."
+    },
+    {
+      "slug": "brand_storytelling_experiential_marketing",
+      "name": "Brand Storytelling & Experiential Marketing",
+      "description": "Companies that create engaging brand narratives and immersive marketing experiences across various touchpoints."
+    },
+    {
+      "slug": "creative_software_ai",
+      "name": "Creative Software & AI",
+      "description": "Development of advanced creative software, AI-powered design tools, and platforms that streamline creative workflows across all disciplines."
+    },
+    {
+      "slug": "digital_fabrication",
+      "name": "Digital Fabrication",
+      "description": "Companies utilizing 3D printing, CNC machining, and other digital fabrication techniques for producing creative products, prototypes, and art installations."
+    },
+    {
+      "slug": "web_digital_experience_platforms",
+      "name": "Web & Digital Experience Platforms",
+      "description": "Web design agencies, web development platforms, and companies creating user-friendly and engaging digital experiences, including AR/VR web integration."
+    },
+    {
+      "slug": "creative_entrepreneurship_support",
+      "name": "Creative Entrepreneurship Support",
+      "description": "Platforms, services, and communities that empower creative professionals to build sustainable businesses, manage their careers, and access opportunities."
+    },
+    {
+      "slug": "design_research_innovation_labs",
+      "name": "Design Research & Innovation Labs",
+      "description": "Organizations or internal labs focused on pushing the boundaries of design through rigorous research, experimentation, and the development of new methodologies and technologies."
+    }
+  ]
+}
