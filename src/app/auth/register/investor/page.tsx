@@ -5,7 +5,7 @@ import { Onboarding_InvestorProfile } from "../../_containers/investor-profile";
 import { ONBOARDING_PAGES } from "@/lib/routes";
 import { Onboarding_InvestorInvestmentFocus } from "../../_containers/investor-investment-focus";
 import { Suspense } from "react";
-
+export const runtime = "edge"
 // Wrap each container component individually in case they also use useSearchParams
 function InvestorProfileWrapper() {
   return (

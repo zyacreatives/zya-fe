@@ -6,7 +6,7 @@ import { Onboarding_BrandCustomizeFeed } from "../../_containers/brand-feed";
 import { Onboarding_BrandProjects } from "../../_containers/brand-projects";
 import { ONBOARDING_PAGES } from "@/lib/routes";
 import { Suspense } from "react";
-
+export const runtime = "edge"
 function BrandProfileWrapper() {
   return (
     <Suspense fallback={<div>Loading brand profile...</div>}>

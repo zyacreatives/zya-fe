@@ -2,12 +2,11 @@
 import { Suspense } from "react";
 import { useUserStore } from "@/src/app/store/user.store";
 import { Button } from "@/components/ui/button";
-import { useRouter } from "next/navigation";
 import Link from "next/link";
-
+export const runtime = "edge"
 function EmailSentContent() {
   const resetEmail = useUserStore((s) => s.resetEmail ?? "");
-  const router = useRouter();
+
 
   //   useEffect(() => {
   //     auth.requestPasswordReset({

@@ -12,7 +12,7 @@ import { Input } from "@/components/ui/input";
 import { Button } from "@/components/ui/button";
 import Link from "next/link";
 import { Suspense } from "react";
-
+export const runtime = "edge"
 function ForgotPasswordForm() {
   const { form, onSubmit } = useForgotPasswordEmail();
 

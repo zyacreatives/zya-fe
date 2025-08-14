@@ -4,7 +4,7 @@ import { ROUTES } from "@/lib/routes";
 import Link from "next/link";
 import { useUsernameReservationStore } from "../store/username-reservation.store";
 import { auth } from "@/lib/auth";
-
+export const runtime = "edge"
 export default function Register() {
   const reservation =
     useUsernameReservationStore((state) => state.reservation) ?? "";

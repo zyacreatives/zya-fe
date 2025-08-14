@@ -17,7 +17,7 @@ import { auth } from "@/lib/auth";
 import Link from "next/link";
 import { ROUTES } from "@/lib/routes";
 import { Suspense } from "react";
-
+export const runtime = "edge"
 function LoginForm() {
   const { form, onSubmit } = useLogin();
   const reservation =

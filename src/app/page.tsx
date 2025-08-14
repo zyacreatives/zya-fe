@@ -4,7 +4,7 @@ import { Form, FormControl, FormField, FormItem } from "@/components/ui/form";
 import { useReserveUsername } from "./auth/_form/reserve-username";
 import { ReservationSuccessDialog } from "./auth/_components/reservation-success-dialog";
 import { useEffect, useState } from "react";
-
+export const runtime = "edge"
 export default function Home() {
   const {
     form,

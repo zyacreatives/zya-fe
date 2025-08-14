@@ -7,7 +7,7 @@ import { Register_AccountType } from "./../_containers/account-type";
 import { ONBOARDING_PAGES } from "@/lib/routes";
 import { Register_EmailVerification } from "./../_containers/email-verification";
 import { Suspense } from "react";
-
+export const runtime = "edge"
 function PersonalInfoWrapper() {
   return (
     <Suspense fallback={<div>Loading personal info...</div>}>

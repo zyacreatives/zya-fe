@@ -6,7 +6,7 @@ import { Onboarding_CreativeCustomizeFeed } from "../../_containers/creative-fee
 import { Onboarding_CreativePortfolio } from "../../_containers/creative-projects";
 import { ONBOARDING_PAGES } from "@/lib/routes";
 import { Suspense } from "react";
-
+export const runtime = "edge"
 // Wrap each container component individually in case they also use useSearchParams
 function CreativeProfileWrapper() {
   return (
