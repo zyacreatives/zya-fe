@@ -4,8 +4,12 @@ import {
   usernameClient,
 } from "better-auth/client/plugins";
 export const auth = createAuthClient({
-  baseURL: "http://31.97.116.31:4140/api/v1/auth",
-  trustedOrigins: ["http://localhost:4140", "http://localhost:3000"],
+  baseURL: "https://api.tryzya.date/api/v1/auth",
+  trustedOrigins: [
+    "http://localhost:4140",
+    "https://api.tryzya.date",
+    "http://localhost:3000",
+  ],
   fetchOptions: {
     credentials: "include",
   },
