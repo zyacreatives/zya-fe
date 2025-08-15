@@ -12,6 +12,7 @@ export const auth = createAuthClient({
   ],
   fetchOptions: {
     credentials: "include",
+    mode: "cors"
   },
 
   plugins: [

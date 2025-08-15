@@ -45,6 +45,7 @@ export const useSubmitPersonalInfo = () => {
       password: values.password,
       username: reservation?.username ?? "",
     });
+    console.log({ error });
     if (!error) {
       claimUsernameReservation(
         {
@@ -54,21 +55,26 @@ export const useSubmitPersonalInfo = () => {
         },
         {
           onError: (error) => {
+            console.log(`Hello here`);
             toast.error(error.message);
           },
           onSuccess: async () => {
+            const { data } = await auth.getSession();
+            console.log({ data, Hm: "HM DATA" });
             clearReservation();
             const { error } = await auth.updateUser({
               onboardingPage: ONBOARDING_PAGES.EMAIL_VERIFICATION,
             });
+            console.log({ error, HELLO: "Hello" });
             if (!error) {
               updatePage(
                 "onboarding_page",
                 ONBOARDING_PAGES.EMAIL_VERIFICATION
               );
-              const { data } = await auth.getSession();
+
               if (data && data.user) setUser(data?.user);
             } else {
+              console.log({ error });
               toast.error(error.message);
             }
           },
