@@ -10,6 +10,7 @@ import { toast } from "sonner";
 import { capitalizeSentences } from "@/lib/capitalize-sentences";
 import { useUserStore } from "../../store/user.store";
 
+
 export const useSubmitPersonalInfo = () => {
   const form = useForm<SubmitPersonalInfoDto>({
     resolver: zodResolver(submitPersonalInfoSchema),
@@ -59,7 +60,9 @@ export const useSubmitPersonalInfo = () => {
             toast.error(error.message);
           },
           onSuccess: async () => {
-            const { data } = await auth.getSession();
+            const { data } = await auth.getSession({
+
+            });
             console.log({ data, Hm: "HM DATA" });
             clearReservation();
             const { error } = await auth.updateUser({
